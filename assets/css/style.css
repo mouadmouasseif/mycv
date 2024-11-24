@@ -139,7 +139,7 @@ nav.navbar.bootsnav ul.nav > li > a {
     transition: 0.3s linear;
 }
 nav.navbar.bootsnav ul.nav > li > a {padding: 35px 20px;}
-nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
+nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #FFD700;}
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
     content: "";
@@ -149,7 +149,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     margin-left: 15px;
 }
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #FFD700;}
 /*.nav li*/
 
 
@@ -392,8 +392,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     left: 20px;
 }
 .barWrapper {
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 20px;
     text-transform: uppercase;
 }
 .progress {
@@ -421,7 +421,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .tooltip > .tooltip-inner {
    background-color: transparent;
    padding: 1px 5px;
-   color: #b636ff;
+   color: #FFD700;
    font-weight: 500;
    font-size: 12px;
    border-radius: 0;
@@ -468,19 +468,19 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .main-timeline:before{
     content: "";
     width: 2px;
-    height: 84%;
+    height: 100%;
     background: #b2c1ce;
     position: absolute;
-    top: 1.5%;
+    top: 1%;
     left: 45.8%;
-    z-index: -1;
+    z-index: 0;
 }
 .main-timeline .timeline{
     position: relative;
 }
 
 .timeline-content span>i, .experience-time span>i {
-    color: #d92cf9;
+    color: #FFD700;
     position: absolute;
     font-size: 10px;
     left: -14.5%;
@@ -565,11 +565,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     content: " ";
     width:100%;
     height: 100%;
-    background: #d92cf9;
-    background: -moz-linear-gradient(left, #d92cf9 0%, #b636ff 100%);
-    background: -webkit-linear-gradient(left, #d92cf9 0%,#b636ff 100%);
-    background: linear-gradient(to right, #d92cf9 0%,#b636ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d92cf9', endColorstr='#b636ff',GradientType=1 );
+    background: #FFD700;
+    background: -moz-linear-gradient(left, #FFD700 0%, #FFD700 100%);
+    background: -webkit-linear-gradient(left, #FFD700 0%,#FFD700 100%);
+    background: linear-gradient(to right, #FFD700 0%,#FFD700 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFD700', endColorstr='#FFD700',GradientType=1 );
     -webkit-transform:scale(0);
     -moz-transform:scale(0);
     -ms-transform:scale(0);
@@ -717,8 +717,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height:50px;
     text-transform:capitalize;
     margin-top: 3px;
-    background: #b636ff;
-    border: 1px solid #b636ff;
+    background: #FFD700;
+    border: 1px solid #FFD700;
     cursor:pointer;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
      -webkit-transition: .5s; 
@@ -743,8 +743,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     
 }
 .single-contact-btn:hover{
-    background: #9f00ff;
-    border: 1px solid #9f00ff;
+    background: #FFD700;
+    border: 1px solid #FFD700;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
 }
 
@@ -795,7 +795,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transition: .3s;
 }
 .hm-foot-icon ul li>a:hover{
-    color: #b636ff;
+    color: #FFD700;
 }/*hm-foot-icon*/
 
 .hm-footer-copyright p{
@@ -819,8 +819,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background:#b636ff;
-	border:1px solid #b636ff;
+    background:#FFD700;
+	border:1px solid #FFD700;
 	border-radius:50%;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -831,8 +831,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 #scroll-Top  .return-to-top:hover {
     background:#fff;
-    color: #b636ff;
-	border:1px solid #b636ff;
+    color: #FFD700;
+	border:1px solid #FFD700;
 }
 
 #scroll-Top  .return-to-top i{
